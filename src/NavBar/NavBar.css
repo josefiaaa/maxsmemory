@@ -1,0 +1,31 @@
+.nav {
+    width: 100vw;
+    left: 0;
+    z-index: 9999;
+    position: fixed;
+	top: 0;
+}
+
+
+.nav-content {
+    background: #008080;
+    display: flex;
+    /* padding: 0px 0px 0px 50px; */
+    align-items: center;
+    width: 100vw;
+}
+
+ul.nav-items {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    justify-content: space-around;
+}
+
+li.nav-item {
+    cursor: pointer;
+}
+
+a.nav-link {
+    color: white;
+}
