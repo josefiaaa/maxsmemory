@@ -5,6 +5,7 @@ import About from './About/About';
 import Cards from './Cards/Cards';
 import Foundations from './Foundations/Foundations';
 import Donate from './Donate/Donate';
+import Sidebar from './Sidebar/Sidebar';
 // import Gallery from './Gallery/Gallery';
 
 
@@ -16,7 +17,8 @@ function App() {
 
             {/* HEADER */}
             <header className="App-header">
-                <NavBar />
+                {/* <NavBar /> */}
+                <Sidebar />
             </header>
 
             <CTA />
