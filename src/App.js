@@ -17,7 +17,7 @@ function App() {
 
             {/* HEADER */}
             <header className="App-header">
-                {/* <NavBar /> */}
+                <NavBar />
                 <Sidebar />
             </header>
 
