@@ -6,7 +6,7 @@ import Cards from './Cards/Cards';
 import Foundations from './Foundations/Foundations';
 import Donate from './Donate/Donate';
 import Sidebar from './Sidebar/Sidebar';
-// import Gallery from './Gallery/Gallery';
+import Gallery from './Gallery/Gallery';
 
 
 import './App.css';
@@ -36,7 +36,7 @@ function App() {
 
                 <Cards />
 
-                {/* <Gallery /> */}
+                <Gallery />
 
                 {/* SECTION 2 */}
                 <Section 
