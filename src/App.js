@@ -40,7 +40,7 @@ function App() {
 
                 {/* SECTION 2 */}
                 <Section 
-                    title="Donate"
+                    // title="Donate"
                     subtitle={<Donate />}
                     id='section2'
                 />

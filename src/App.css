@@ -4,6 +4,10 @@
   color: #fff;
 }
 
+#section2 {
+  border-bottom: 20px solid #008080;
+}
+
 #section3 {
   padding: 20px;
   background: whitesmoke;
