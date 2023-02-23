@@ -1,17 +1,25 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import img7 from '../Gallery/Images/img7.jpg';
 import img11 from '../Gallery/Images/img11.jpg';
 import img12 from '../Gallery/Images/img12.jpg';
 import img13 from '../Gallery/Images/img13.jpg';
 
+
 import './About.css';
 
-function About () {
+const About = () => {
+
+    useEffect(() => {
+        Aos.init({ duration: 1500 });
+    },[]);
+
     return (
         <div className='about-cont' id='first'>
             <div className='wrapper'>
                 <div className='about'>
-                    <div className='section-1'>
+                    <div data-aos='fade-down' className='section-1'>
                         <div>
                             <img className='main-pic' src={img11} alt='' />
                         </div>
@@ -24,7 +32,7 @@ function About () {
                         </p>
                     </div>
 
-                    <div className='section-2'>
+                    <div data-aos='fade-up' className='section-2'>
                         <p>
                             Max was stationed with the Strike Fighter Squadron 14 (VFA-14) “Tophatters” based at Naval Air Station 
                             Lemoore in Lemoore, CA, attached to the USS Abraham Lincoln (CVN-72) aircraft carrier based in San Diego, CA. 

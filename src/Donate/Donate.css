@@ -21,7 +21,6 @@
 }
 
 .donate-pic {
-    animation: 3s slide-right;
     height: 40vh;
     background: white;
     display: flex;
@@ -38,13 +37,11 @@
 
 .donate-pic.navy{
     background-color: #002650;
-    animation: 3s slide-left;
 }
 
 .donate-words {
     max-width: 45vw;
     font-size: 18px;
-    /* font-weight: 600; */
 }
 
 .donate-words p {
@@ -58,30 +55,9 @@
     color: whitesmoke;
     padding: 20px;
     position: static;
-    /* margin: 3px; */
 }
 
 .donate-btn:hover {
     background-color: #6aa773;
     transition: background-color 300ms linear;
-    /* padding: 18px; */
-}
-
-
-@keyframes slide-left {
-    from {
-        margin-right: -100%;
-    }
-    to {
-        margin-right: 0%;
-    }
-}
-
-@keyframes slide-right {
-    from {
-        margin-left: -100%;
-    }
-    to {
-        margin-left: 0%;
-    }
 }

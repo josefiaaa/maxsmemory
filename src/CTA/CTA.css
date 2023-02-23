@@ -20,6 +20,7 @@
     font-size: 3vh;
     font-family: 'Montserrat', sans-serif;
     line-height: 10vh;
+    animation: fadeIn ease 3s;
 }
 
 .w-link {
@@ -78,5 +79,14 @@
     }
     100% {
         margin-top: -35vh;
+    }
+}
+
+@keyframes fadeIn{
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
     }
 }

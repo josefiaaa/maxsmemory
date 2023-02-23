@@ -1,16 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './Donate.css';
 import maxlogo from '../Gallery/Images/maxlogo.jpg';
 import navylogo from '../Gallery/Images/navylogo.jpg';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
-function Donate () {
+const Donate = () => {
+
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+    },[]);
     return (
         <div className="donateCont">
             <div className="max-donate">
-                <div className="donate-pic" >
+                <div data-aos='slide-right' className="donate-pic" >
                     <img src={maxlogo} />   
                 </div>
-                <div className="donate-words" >
+                <div data-aos='slide-left' className="donate-words" >
                     <p>
                         As Max was developing his musical skill, he wanted to invest in better equipment to reflect his talent. He worked hard to save up money for a pearl coated Fender Stratocaster, a beautiful guitar to complement his remarkable music. Max's family has established this foundation is his name to spread the love and joy Max felt while playing and composing music. By contributing, you will support young aspiring musicians with improved equipment, scholarships and or educational grants who may not have the opportunity that Max did.
                     </p>
@@ -19,10 +25,10 @@ function Donate () {
             </div>
 
             <div className="corps-donate" >
-                <div className="donate-pic navy ">
+                <div data-aos='slide-left' className="donate-pic navy ">
                     <img src={navylogo} />
                 </div>
-                <div className="donate-words">
+                <div data-aos='slide-right' className="donate-words">
                     <p>            
                         While Max was already a hard working and commited individual, he craved more dicipline and structure like many others who protect our country. Your donation to the Navy-Marine Corps Relief Society will help to provide financial assistance to Sailors, Marines and their families in times of need.    
                     </p>

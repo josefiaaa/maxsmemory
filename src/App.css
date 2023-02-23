@@ -6,6 +6,7 @@
 
 #section2 {
   border-bottom: 20px solid #008080;
+  overflow: hidden;
 }
 
 #section3 {
