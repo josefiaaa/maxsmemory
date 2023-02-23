@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-// import myLogo from './myLogo.png';
+import maxlogo from '../Gallery/Images/maxlogo.jpg';
 import { Link, animateScroll as scroll } from 'react-scroll';
 import './NavBar.css';
 
@@ -14,12 +14,12 @@ export default class NavBar extends Component {
             <nav className="nav" id="navbar">
                 <div className="nav-content bottom-nav">
                     {/* LOGO */}
-                    {/* <img
-                        src={myLogo}
+                    <img
+                        src={maxlogo}
                         className="nav-logo"
                         alt="Logo"
                         onClick={this.scrollToTop}
-                    /> */}
+                    />
                     {/* NAV LINKS */}
                         {/* WHEN CHANGING NAV LINKS, BE SURE TO UPDATE SECTIONS IN APP.JS */}
                     <ul className="nav-items">
@@ -63,7 +63,7 @@ export default class NavBar extends Component {
                             Gallery
                         </Link>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                         <Link
                             className='nav-link'
                             activeClass="active"
@@ -88,7 +88,7 @@ export default class NavBar extends Component {
                         >
                             Contributers
                         </Link>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </nav>

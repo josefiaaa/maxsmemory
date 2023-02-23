@@ -53,18 +53,18 @@ function App() {
                 />
 
                 {/* SECTION 4 */}
-                <Section 
+                {/* <Section 
                     title="Musicians"
                     // subtitle={<Musicians />}
                     id='section4'
-                />
+                /> */}
 
                 { /* SECTION 5 */}
-                    <Section 
+                    {/* <Section 
                     title="Contributers"
                     // subtitle={<Contributers />} 
                     id='section5'
-                />
+                /> */}
             </div>
         </div>
     );

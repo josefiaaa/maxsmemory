@@ -23,35 +23,32 @@ const Gallery = () => {
     },[]);
 
     return (
-
         <div data-aos='fade' className="row">
-        <div  className="column">
-            <img src={img4} />
-            <img src={img3} />
-            <img src={img21} />
-            
+
+            <div  className="column">
+                <img src={img4} />
+                <img src={img3} />
+                <img src={img21} />
+            </div>
+
+            <div className="column">
+                <img src={img16} />
+                <img src={img17} />
+                <img src={img20} />
+            </div>
+
+            <div className="column">
+                <img src={img6} />
+                <img src={img18} />
+                <img src={img14} />
+            </div>
+
+            <div className="column">
+                <img src={img9} />
+                <img src={img2} />
+                <img src={img15} />
+            </div>
         </div>
-        <div className="column">
-<img src={img16} />
-<img src={img17} />
-<img src={img20} />
-
-
-</div>
-        <div className="column">
-<img src={img6} />
-<img src={img18} />
-<img src={img14} />
-
-</div>
-
-<div className="column">
-<img src={img9} />
-<img src={img2} />
-<img src={img15} />
-
-</div>
-</div>
     )
 }
 

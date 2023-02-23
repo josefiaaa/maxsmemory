@@ -6,6 +6,14 @@
 	top: 0;
 }
 
+.nav-logo {
+    /* max-width: 30px; */
+    max-height: 70px;
+}
+
+.nav-logo:hover {
+    cursor: pointer;
+}
 
 .nav-content {
     background: #008080;
