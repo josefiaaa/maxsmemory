@@ -1,7 +1,7 @@
 .section-1 {
     display: flex;
     align-items: center;
-    padding: 30px;
+    /* padding: 30px; */
     justify-content: center;
 }
 
@@ -13,10 +13,19 @@
     width: 50vw;
 }
 
+.section-3 {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    border-bottom: 20px solid #6846 ;
+}
 
+.section-3 p {
+    max-width: 45vw;
+}
 
-.section-2 {
-    padding: 3%;
+.section-3 img {
+    max-width: 45vw;
 }
 
 .award-cont {
@@ -38,6 +47,15 @@
     .section-2 {
         display: flex;
         flex-direction: column-reverse;
+    }
+    .section-3 {
+        flex-direction: column-reverse;
+    }
+    .section-3 p {
+        max-width: 100%;
+    }
+    .section-3 img {
+        max-width: 85vw;
     }
     .main-words {
         width: 85vw;

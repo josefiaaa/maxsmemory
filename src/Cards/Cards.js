@@ -1,12 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import { FaQuoteLeft } from 'react-icons/fa';
 import './Cards.css';
 
-function Cards ( ) {
+const Cards = ( ) => {
+
+    useEffect(() => {
+        Aos.init({ duration: 1500 });
+    },[]);
+
     return (
         <div className='card-background' >
 
-            <div className='group 1'>
+            <div data-aos='fade-in' className='group 1'>
                 <p className='card'>
                 <i><FaQuoteLeft className='quote' /> We were on the Lincoln deployment together. It was a pleasure to meet such 
                     a kind and fun person. It is so sad to see him leave this earth so soon. He could make any bad situation better."</i> <br /> - P M (Friend)
@@ -19,7 +26,7 @@ function Cards ( ) {
                 </p>
             </div>
 
-            <div className='group 2'>
+            <div data-aos='fade-in' className='group 2'>
                 <p className='card'>
                     <i><FaQuoteLeft className='quote' /> ...it's been fun following his growing up many miles away. He grew into quite nice young man with lots of 
                     talent and abilities."</i> <br /> - Jacque and Harold Meyer (Family)
@@ -33,7 +40,7 @@ function Cards ( ) {
                 </p>
             </div>
 
-            <div className='group 3'>
+            <div data-aos='fade-in' className='group 3'>
                 <p className='card no'>
                     <i><FaQuoteLeft className='quote' /> Max was the type of person who would light up a room instantly. He knew how to put a smile on your face 
                     without even trying and he always put your feelings first before his own. He was the sweetest human I have ever 
