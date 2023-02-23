@@ -16,7 +16,7 @@
 }
 
 .nav-content {
-    background: #008080;
+    background: #8ECAFB;
     display: flex;
     align-items: center;
     width: 100vw;
@@ -35,7 +35,8 @@ li.nav-item {
 }
 
 a.nav-link {
-    color: white;
+    color: #383838;
+    font-weight: 600;
 }
 
 @media (max-width: 700px) {

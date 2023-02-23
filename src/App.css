@@ -1,11 +1,11 @@
 .App {
   text-align: center;
-  background-color: #008080;
-  color: #fff;
+  background-color: #8ECAFB;
+  color: #383838;
 }
 
 #section2 {
-  border-bottom: 20px solid #008080;
+  border-bottom: 20px solid #8ECAFB;
   overflow: hidden;
 }
 
@@ -19,8 +19,9 @@ a {
 }
 
 p {
+  /* text-shadow: 1.5px 2px #000; */
   font-size: 25px;
-  font-weight: 300;
+  font-weight: 340;
   padding: 2%;
   cursor: default;
 }

@@ -2,7 +2,7 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    background-color: #008080;
+    background-color: #8ECAFB;
 }
 
 .cta-words-cont{
@@ -15,7 +15,7 @@
 }
 
 .cta-words{
-    color: white;
+    color: #383838;
     padding: 50px;
     font-size: 3vh;
     font-family: 'Montserrat', sans-serif;
@@ -25,7 +25,7 @@
 }
 
 .w-link {
-    color: white;
+    color: #383838;
 }
 
 .cta-grid-cont{
