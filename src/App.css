@@ -22,4 +22,5 @@ p {
   font-size: 25px;
   font-weight: 300;
   padding: 2%;
+  cursor: default;
 }

@@ -78,7 +78,7 @@ const Sidebar = () => {
                             offset={-70}
                             duration={1500}
                         >
-                            Foundations
+                            Donate
                         </Link>
                     </li>
                         <li className="nav-item">
@@ -92,10 +92,10 @@ const Sidebar = () => {
                             offset={-70}
                             duration={1500}
                         >
-                            Donate
+                            Gallery
                         </Link>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <Link
                             onClick={() => setSidebarOpen(false)}
                             className='side-link'
@@ -122,7 +122,7 @@ const Sidebar = () => {
                         >
                             Contributers
                         </Link>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
         </nav>

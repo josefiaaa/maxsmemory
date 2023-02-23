@@ -21,6 +21,7 @@
     font-family: 'Montserrat', sans-serif;
     line-height: 10vh;
     animation: fadeIn ease 3s;
+    cursor: default;
 }
 
 .w-link {
