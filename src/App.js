@@ -3,7 +3,7 @@ import Section from './Sections/Sections';
 import CTA from './CTA/CTA';
 import About from './About/About';
 import Cards from './Cards/Cards';
-import Foundations from './Foundations/Foundations';
+// import Foundations from './Foundations/Foundations';
 import Donate from './Donate/Donate';
 import Sidebar from './Sidebar/Sidebar';
 import Gallery from './Gallery/Gallery';
@@ -36,19 +36,19 @@ function App() {
 
                 <Cards />
 
-                <Gallery />
+                {/* <Gallery /> */}
 
                 {/* SECTION 2 */}
                 <Section 
-                    title="Foundations"
-                    subtitle={<Foundations />}
+                    title="Donate"
+                    subtitle={<Donate />}
                     id='section2'
                 />
 
                 {/* SECTION 3 */}
                 <Section 
-                    title="Donate"
-                    subtitle={<Donate />}
+                    // title="Gallery"
+                    subtitle={<Gallery />}
                     id='section3'
                 />
 
