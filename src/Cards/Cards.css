@@ -1,9 +1,44 @@
+.card-background {
+    background-color: whitesmoke;
+}
+
 .card{
-    padding: 15px;
-    background-color: white;
+    padding: 30px;
+    background-color: #ef6f6c;
+    color: white;
     /* border: 1px solid; */
-    border-radius: 5px;
+    /* border-radius: 5px; */
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: 30px;
+    max-width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 400;
+}
 
+.card.no {
+    max-width: 70vw;
+}
+
+.group {
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    color: #d24740;
+}
+
+@media (max-width: 700px) {
+    .group {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        max-width: 80vw;
+    }
+    .card.no{
+        max-width: 80vw;
+    }
 }
